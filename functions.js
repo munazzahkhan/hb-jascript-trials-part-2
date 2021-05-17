@@ -2,8 +2,7 @@
 
 
 // 1. isHometown
-
-// Define your function here
+const isHometown = town => town === 'San Francisco'
 
 
 // 2. getFullName
