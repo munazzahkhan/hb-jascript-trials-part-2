@@ -6,7 +6,7 @@ function countWords(phrase) {
   const wordCounts = {};
   // console.log(phrase.split(' '))
   for (const word of phrase.split(' ')){
-    if (!phrase.word){ 
+    if (!wordCounts[word]){ 
       wordCounts[word] = 1;
     } else {
       wordCounts[word] += 1;
@@ -33,4 +33,4 @@ function getMelonsAtPrice(price) {
   return null;
 }
 
-console.log(getMelonsAtPrice(3.11))
+console.log(countWords("This is a test to test the number of the words."))
